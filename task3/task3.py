@@ -1,7 +1,7 @@
 # Запрашиваем путь к файлам values и tests:
 values_path =input("Введите путь к файлу с оценками: ").strip()
 tests_path =input("Введите путь к файлу со списком тестов: ").strip()
-
+report_path=input("Введите путь к файлу,\n в который запишутся тесты с оценками (формат .json): ").strip()
 
 import json
 #распаковываем файл с оценками и применяем json разметку
@@ -29,7 +29,7 @@ def iter_thrgh_dict(report_as_list,values_as_dict): #на вход list с те�
 edited_tests=iter_thrgh_dict(tests_loaded['tests'],values_as_dict)
 
 #в файл 'report' <- отредактированный 'tests':
-with open('report.json', 'w') as file:
+with open(report_path, 'w') as file:
     json.dump({'tests':edited_tests}, file, indent=4)
 
 
