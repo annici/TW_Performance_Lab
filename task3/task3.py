@@ -1,16 +1,18 @@
-import json
-import shutil
+# Запрашиваем путь к файлам values и tests:
+values_path =input("Введите путь к файлу с оценками: ").strip()
+tests_path =input("Введите путь к файлу со списком тестов: ").strip()
 
+
+import json
 #распаковываем файл с оценками и применяем json разметку
-with open('values.txt',  'r', encoding='Utf-8') as values:
+with open(values_path,  'r', encoding='Utf-8') as values:
     values_loaded = json.load(values)['values'] #list
     values_as_dict={}
     for i in values_loaded: #формируем словарик типа "айди: оценка"
         values_as_dict |= {i['id']:i['value']}
 
-with open('tests.txt',  'r', encoding='Utf-8') as tests:
+with open(tests_path,  'r', encoding='Utf-8') as tests:
     tests_loaded = json.load(tests)
-
 
 def iter_thrgh_dict(report_as_list,values_as_dict): #на вход list с тестами и dict с оценками
 
