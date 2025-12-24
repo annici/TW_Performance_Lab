@@ -27,13 +27,14 @@ def  functy(n,m):
             result_accum1 += str(interval[0])
             a += m-1
             b += m-1
+
             if b>=len(array):
                 array += (array) #да, не спорю - топорно, но зато работает =)
+
             interval = array[a:b]
             if len(array)>10000000000:
                 print("Кажется, алгоритм нужно усовершенствать;\n Попробуйте числа поменьше..")
                 break
-
             elif interval[-1]==1: #для последнего прохода цикла
                 result_accum1 += str(interval[0]) #т.к. это последний проход цикла, надо сохранить рез-т
     except TimeoutError:
