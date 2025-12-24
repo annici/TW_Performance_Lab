@@ -21,4 +21,5 @@ median = statistics.median(vector)
 min_iterations= sum(abs(v - median) for v in vector)
 if median > 20:
     print('20 ходов недостаточно для приведения всех элементов массива к одному числу')
+else:
     print("Медиана найдена:", median)
