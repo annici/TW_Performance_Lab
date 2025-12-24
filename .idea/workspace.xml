@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7de05d8-e013-4674-b1ca-31a1fbe61d2e" name="Changes" comment="task2 - with no dots err&#10;task3 - full + correct input&#10;task1 - full + err exeptions&#10;task 4 - full + vector.txt">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/НТ_Performance_Lab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/author.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4/task4.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elipse1.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/annici/TW_Performance_Lab.git",
+    "accountId": "39fd3477-14b6-4d4a-ad0d-3a3e208b02c6"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="37Cud1lx8JNH2I67MJtaCvGSPvX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.task1.executor": "Run",
+    "Python.task2.executor": "Run",
+    "Python.task2V2.executor": "Run",
+    "Python.task3.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/annic/PycharmProjects/НТ_Performance_Lab/task3",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\annic\PycharmProjects\НТ_Performance_Lab\task3" />
+      <recent name="C:\Users\annic\PycharmProjects\НТ_Performance_Lab" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\annic\PycharmProjects\НТ_Performance_Lab\task4" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="task2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="НТ_Performance_Lab" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="C:\Users\annic\PycharmProjects\НТ_Performance_Lab\task2\task2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.task2V2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-PY-253.28294.336" />
+        <option value="bundled-python-sdk-0978a7220b69-9867c7d4c0a4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.28294.336" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7de05d8-e013-4674-b1ca-31a1fbe61d2e" name="Changes" comment="" />
+      <created>1766419458217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766419458217</updated>
+      <workItem from="1766419459610" duration="54948000" />
+    </task>
+    <task id="LOCAL-00001" summary="task2 with dots err">
+      <option name="closed" value="true" />
+      <created>1766472068118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766472068118</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task2 - with no dots err&#10;task3 - full">
+      <option name="closed" value="true" />
+      <created>1766511975940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766511975940</updated>
+    </task>
+    <task id="LOCAL-00003" summary="task2 - with no dots err&#10;task3 - full + correct input">
+      <option name="closed" value="true" />
+      <created>1766512406971</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766512406971</updated>
+    </task>
+    <task id="LOCAL-00004" summary="task2 - with no dots err&#10;task3 - full + correct input">
+      <option name="closed" value="true" />
+      <created>1766513816152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766513816152</updated>
+    </task>
+    <task id="LOCAL-00005" summary="task2 - with no dots err&#10;task3 - full + correct input&#10;task 4 - full">
+      <option name="closed" value="true" />
+      <created>1766575665835</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1766575665835</updated>
+    </task>
+    <task id="LOCAL-00006" summary="task2 - with no dots err&#10;task3 - full + correct input&#10;task 4 - full + err exeptions">
+      <option name="closed" value="true" />
+      <created>1766579035733</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1766579035733</updated>
+    </task>
+    <task id="LOCAL-00007" summary="task2 - with no dots err&#10;task3 - full + correct input&#10;task1 - full + err exeptions">
+      <option name="closed" value="true" />
+      <created>1766579077450</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1766579077451</updated>
+    </task>
+    <task id="LOCAL-00008" summary="task2 - with no dots err&#10;task3 - full + correct input&#10;task1 - full + err exeptions">
+      <option name="closed" value="true" />
+      <created>1766583194066</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1766583194066</updated>
+    </task>
+    <task id="LOCAL-00009" summary="task2 - with no dots err&#10;task3 - full + correct input&#10;task1 - full + err exeptions&#10;task 4 - full">
+      <option name="closed" value="true" />
+      <created>1766587221322</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1766587221322</updated>
+    </task>
+    <task id="LOCAL-00010" summary="task2 - with no dots err&#10;task3 - full + correct input&#10;task1 - full + err exeptions&#10;task 4 - full + vector.txt">
+      <option name="closed" value="true" />
+      <created>1766587243522</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1766587243522</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task2 with dots err" />
+    <MESSAGE value="task2 - with no dots err&#10;task3 - full" />
+    <MESSAGE value="task2 - with no dots err&#10;task3 - full + correct input" />
+    <MESSAGE value="task2 - with no dots err&#10;task3 - full + correct input&#10;task 4 - full" />
+    <MESSAGE value="task2 - with no dots err&#10;task3 - full + correct input&#10;task 4 - full + err exeptions" />
+    <MESSAGE value="task2 - with no dots err&#10;task3 - full + correct input&#10;task1 - full + err exeptions" />
+    <MESSAGE value="task2 - with no dots err&#10;task3 - full + correct input&#10;task1 - full + err exeptions&#10;task 4 - full" />
+    <MESSAGE value="task2 - with no dots err&#10;task3 - full + correct input&#10;task1 - full + err exeptions&#10;task 4 - full + vector.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="task2 - with no dots err&#10;task3 - full + correct input&#10;task1 - full + err exeptions&#10;task 4 - full + vector.txt" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/_Performance_Lab$task2V2.coverage" NAME="task2 Coverage Results" MODIFIED="1766508603406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2" />
+    <SUITE FILE_PATH="coverage/_Performance_Lab$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1766578947303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task1" />
+    <SUITE FILE_PATH="coverage/_Performance_Lab$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1766512301835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2" />
+    <SUITE FILE_PATH="coverage/_Performance_Lab$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1766513760291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task3" />
+  </component>
+</project>
