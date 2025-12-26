@@ -1,10 +1,10 @@
-# Запрашиваем путь к файлам values и tests:
+
 values_path =input("Введите путь к файлу с оценками: ").strip()
 tests_path =input("Введите путь к файлу со списком тестов: ").strip()
 report_path=input("Введите путь к файлу,\n в который запишутся тесты с оценками (формат .json): ").strip()
 
 import json
-#распаковываем файл с оценками и применяем json разметку
+#
 with open(values_path,  'r', encoding='Utf-8') as values:
     values_loaded = json.load(values)['values'] #list
     values_as_dict={}

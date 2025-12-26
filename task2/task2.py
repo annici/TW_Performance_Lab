@@ -4,9 +4,11 @@ ellipsefile_path =input("Введите путь к файлу с парамет
 #распаковываем параметры эллипса:
 try:
         with open(ellipsefile_path, 'r', encoding='utf-8') as file:
-            # Разбиваем строку на отдельные числа
-            values = (file.readline().strip()).split()
+            values=[]
+            for row in file:
+                values.extend(map(int, row.split()))
 
+            print(values)
             if len(values) != 4:
                 raise ValueError(f"Ожидается 4 параметра элипса, получено {len(values)}")
 
@@ -52,14 +54,3 @@ except ValueError as s:
         print(f"Ошибка при обработке данных: {s}")
 except Exception as bb:
         print(f"Произошла какая-та ошибка во время распаковки файла с координатами точек: {bb}")
-
-'''
-try:
-    print('Рассчитаем точки  на окружности')
-import math
-    print(1,';',(math.sqrt(-(1-x_center)**2/semi_axis_a**2+1)/semi_axis_b + y_center))
-    print( (math.sqrt(-(8 - y_center) ** 2 / semi_axis_b ** 2 + 1) / semi_axis_a + x_center), ';',8)
-    
-except Exception as bb:
-        print(f"упси! ошибочка при расчёте координат точек на элипсе: {bb}")
-'''

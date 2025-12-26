@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.14 (НТ_Performance_Lab)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14 (НТ_Performance_Lab)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14" project-jdk-type="Python SDK" />
 </project>
