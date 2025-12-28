@@ -1,5 +1,14 @@
-# Запрашиваем путь к файлу c координатами эллиспа
-ellipsefile_path =input("Введите путь к файлу с параметрами эллипса: ").strip()
+#python task2.py ellipse.txt dots.txt
+import argparse
+
+parser = argparse.ArgumentParser(description="Описалово")
+parser.add_argument("ellipse",  help="Файл с параметрами эллипса")
+parser.add_argument("dots", help="Файл с координатами точек")
+args = parser.parse_args()
+
+
+ #путь к файлу c координатами эллиспа
+ellipsefile_path =(args.ellipse).strip()
 
 #распаковываем параметры эллипса:
 try:
@@ -8,7 +17,7 @@ try:
             for row in file:
                 values.extend(map(int, row.split()))
 
-            print(values)
+            #print(values)
             if len(values) != 4:
                 raise ValueError(f"Ожидается 4 параметра элипса, получено {len(values)}")
 
@@ -26,7 +35,7 @@ except Exception as bb:
         print(f"Произошла ошибка на этапе распаковки файла эллипса: {bb}")
 
 # .. и к файлу c координатами точек
-dotfile_path =input("Введите путь к файлу с параметрами точек: ").strip()
+dotfile_path =(args.dots).strip()
 
 #распаковываем параметры точек:
 try:

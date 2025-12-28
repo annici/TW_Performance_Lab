@@ -1,9 +1,15 @@
-#%%
-file_path =input("Введите путь к файлу с массивом: ").strip()
+#python task4.py vector.txt
+
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("file_path",  help="Файл с массивом")
+args = parser.parse_args()
+
 vector=[]
 #распаковываем массив:
 try:
-        with open(file_path, 'r', encoding='utf-8') as file:
+        with open((args.file_path).strip(), 'r', encoding='utf-8') as file:
             for _,row in enumerate(file):
                 vector.append(int(row.strip()))
 except FileNotFoundError:
@@ -23,4 +29,5 @@ if min_iterations > 20:
     print('20 ходов недостаточно для приведения всех элементов массива к одному числу')
 else:
     print("Наименьшее количество ходов равно ", min_iterations)
+
 

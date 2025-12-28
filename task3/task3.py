@@ -1,17 +1,20 @@
+#python task3.py values.txt tests.txt report.json
+import argparse
 
-values_path =input("Введите путь к файлу с оценками: ").strip()
-tests_path =input("Введите путь к файлу со списком тестов: ").strip()
-report_path=input("Введите путь к файлу,\n в который запишутся тесты с оценками (формат .json): ").strip()
+parser = argparse.ArgumentParser()
+parser.add_argument("values",  help="Файл с оценками")
+parser.add_argument("tests", help="Файл со структурой теста")
+parser.add_argument("report", help="Файл-результат формата .json, заполненный оценками")
+args = parser.parse_args()
 
 import json
-#
-with open(values_path,  'r', encoding='Utf-8') as values:
+with open((args.values).strip(),'r', encoding='Utf-8') as values:
     values_loaded = json.load(values)['values'] #list
     values_as_dict={}
     for i in values_loaded: #формируем словарик типа "айди: оценка"
         values_as_dict |= {i['id']:i['value']}
 
-with open(tests_path,  'r', encoding='Utf-8') as tests:
+with open((args.tests).strip(),  'r', encoding='Utf-8') as tests:
     tests_loaded = json.load(tests)
 
 def iter_thrgh_dict(report_as_list,values_as_dict): #на вход list с тестами и dict с оценками
@@ -29,7 +32,5 @@ def iter_thrgh_dict(report_as_list,values_as_dict): #на вход list с те�
 edited_tests=iter_thrgh_dict(tests_loaded['tests'],values_as_dict)
 
 #в файл 'report' <- отредактированный 'tests':
-with open(report_path, 'w') as file:
+with open((args.report).strip(), 'w') as file:
     json.dump({'tests':edited_tests}, file, indent=4)
-
-
